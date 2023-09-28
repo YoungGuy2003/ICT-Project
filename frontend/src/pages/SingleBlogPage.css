@@ -1,0 +1,55 @@
+
+
+.single-blog-container {
+  padding-top: 60px; /* Adjust this value according to the height of your navbar */
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: calc(100vh - 60px); /* Adjust this value according to the height of your navbar */
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-size: cover;
+  background-color: #88c2df;
+}
+
+.custom-bg-color {
+  background-color: #88c2df;
+}
+
+
+.blog-content {
+  width: 100%;
+  max-width: 800px; /* This value can be adjusted based on how wide you want your content to be */
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  word-wrap: break-word;
+}
+
+.blog-content h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.blogs-container {
+  margin: 150px;
+}
+
+.blog {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.blog h1 {
+  margin-top: 0;
+}
+
+.blog-content {
+  margin-top: 10px;
+}
